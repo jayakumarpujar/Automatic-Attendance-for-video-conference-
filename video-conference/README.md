@@ -9,15 +9,15 @@ When a peer visits <a href="http://127.0.0.1:1337/" target="_blank">http://127.0
 Below is a screenshot of a sample room (<a href="http://127.0.0.1:1337/jk4qhh" target="_blank">http://127.0.0.1:1337/jk4qhh</a>) with four users participating in a video conference:<br>
 <img src="https://cloud.githubusercontent.com/assets/10542894/7550897/538ec66a-f674-11e4-9f52-b0f5a5b9911d.png" width="450"/>
 
-A full working demo is available at <a href="http://www.foobubble.com" target="_blank">FooBubble.com</a>.
+
 
 At the moment WebRTC is supported only by a limited number of browsers: Chrome, Firefox and Opera.
 
 ## How to run the code
-1. Clone the repo: `$ git clone https://github.com/lucaslouca/video-conference-webrtc.git` 
-2. `$ cd video-conference-webrtc `
-3. `$ npm install` (you may need root access)
-4. `$ node server.js`
-5. Access the app from a WebRTC capable webbrowser through <a href="http://127.0.0.1:1337/" target="_blank">http://127.0.0.1:1337/</a>
+
+1. `$ cd video-conference`
+2. `$ npm install` (you may need root access)
+3. `$ node server.js`
+4. Access the app from a WebRTC capable webbrowser through <a href="http://127.0.0.1:1337/" target="_blank">http://127.0.0.1:1337/</a>
 
 Note: If you are sitting behind a corporate proxy make sure to use `npm config set proxy http://"username:password"@proxy-server.com:8080` first.
