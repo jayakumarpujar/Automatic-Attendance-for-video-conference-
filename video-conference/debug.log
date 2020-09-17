@@ -1,0 +1,18 @@
+info: Server running on port 1337
+info: Server IP Address:localhost
+info: Socket IO Address:127.0.0.1:1337
+info: ConfigNameSpaceChannel:/c222c8f-b9dc-929f-589c-f313d1f8b1da
+info: c222c8f-b9dc-929f-589c-f313d1f8b1da joined first. Creates room xnswlw
+info: message:  {"type":"newparticipant","from":"c222c8f-b9dc-929f-589c-f313d1f8b1da"}
+info: message:  {"type":"bye","from":"c222c8f-b9dc-929f-589c-f313d1f8b1da"}
+info: Server running on port 1337
+info: Server IP Address:localhost
+info: Socket IO Address:127.0.0.1:1337
+info: ConfigNameSpaceChannel:/bf96f9e2-5d36-9e03-5574-de3cefc66a70
+info: bf96f9e2-5d36-9e03-5574-de3cefc66a70 joined first. Creates room xnswlw
+info: message:  {"type":"newparticipant","from":"bf96f9e2-5d36-9e03-5574-de3cefc66a70"}
+info: message:  {"type":"bye","from":"bf96f9e2-5d36-9e03-5574-de3cefc66a70"}
+info: ConfigNameSpaceChannel:/6472dc72-3379-3844-a6-98d4453de43
+info: 6472dc72-3379-3844-a6-98d4453de43 joined first. Creates room 310x06
+info: message:  {"type":"newparticipant","from":"6472dc72-3379-3844-a6-98d4453de43"}
+info: message:  {"type":"bye","from":"6472dc72-3379-3844-a6-98d4453de43"}

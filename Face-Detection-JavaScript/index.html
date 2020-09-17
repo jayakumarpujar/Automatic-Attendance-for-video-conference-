@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script defer src="face-api.min.js"></script>
+  <script defer src="script.js"></script>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    canvas {
+      position: absolute;
+    }
+    #displayPercentage{
+      color:chocolate;
+      font-size: medium;
+    }
+  </style>
+</head>
+<body>
+
+  <form action="" id="form">
+    <label for="fname">Enter Class Duration</label>
+    <input type="text" id="class-duration" name="firstname" placeholder="Enter No.of hours" required>
+    <input type="submit" value="Submit">
+
+  </form>
+
+
+  <video id="video" width="720" height="560" autoplay="true"  ></video>
+  <h2 id="displayPercentage"></h2>
+ <img id="imageshow"/> 
+</body>
+<canvas id="gameCanvas" width="720" height="560" style="display: none;"></canvas>
+</html>
